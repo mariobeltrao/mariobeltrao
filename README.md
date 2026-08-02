@@ -161,17 +161,16 @@ Acredito que o aprendizado contínuo, a capacidade de resolver problemas e o tra
 
 ## 📊 Estatísticas
 
-
-<p align="center">
+<p align="left">
   <img
     height="180"
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mariobeltrao&show_icons=true&theme=tokyonight&locale=pt-br"
+    src="https://github-readme-stats-weld-theta-68.vercel.app/api?username=mariobeltrao&show_icons=true&theme=tokyonight&locale=pt-br"
     alt="Estatísticas do GitHub"
   />
 
   <img
     height="180"
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mariobeltrao&layout=compact&theme=tokyonight&langs_count=9&custom_title=Tecnologias"
+    src="https://github-readme-stats-weld-theta-68.vercel.app/api/top-langs/?username=mariobeltrao&layout=compact&theme=tokyonight&langs_count=9&custom_title=Tecnologias"
     alt="Tecnologias mais utilizadas"
   />
 </p>
