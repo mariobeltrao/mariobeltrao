@@ -1,0 +1,32 @@
+name: Gerar animação da snake
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Gerar SVGs da snake em verde-musgo
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#556B2F&color_dots=#EBF1E6,#C5D5B9,#8FBC8F,#6B8E23,#3F571F
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#8FBC8F&color_dots=#11170D,#24301C,#3F571F,#6B8E23,#A9C98E
+
+      - name: Publicar SVGs no branch output
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist

@@ -225,12 +225,12 @@ Sistema acadêmico de gerenciamento de tarefas e prazos desenvolvido em Python p
 
 ## `📊 estatísticas`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mariobeltrao&show_icons=true&hide_border=true&title_color=8FBC8F&icon_color=6B8E23&text_color=DDE7D5&bg_color=11170D&locale=pt-br" alt="Estatísticas do GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mariobeltrao&layout=compact&hide_border=true&title_color=8FBC8F&text_color=DDE7D5&bg_color=11170D&locale=pt-br" alt="Linguagens mais usadas" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mariobeltrao&theme=github_dark&title_color=8FBC8F&text_color=DDE7D5&bg_color=11170D&border_color=2F3E24&icon_color=6B8E23&chart_color=6B8E23&animation=load&hide_logo=true" alt="Estatísticas do GitHub" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mariobeltrao&theme=github_dark&title_color=8FBC8F&text_color=DDE7D5&bg_color=11170D&border_color=2F3E24&icon_color=6B8E23&chart_color=6B8E23&animation=load" alt="Linguagens mais usadas" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mariobeltrao&bg_color=11170D&color=8FBC8F&line=6B8E23&point=DDE7D5&area=true&hide_border=true" width="95%" alt="Gráfico de contribuições" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mariobeltrao&theme=github_dark&title_color=8FBC8F&text_color=DDE7D5&bg_color=11170D&border_color=2F3E24&icon_color=6B8E23&chart_color=6B8E23&animation=load" width="95%" alt="Gráfico de contribuições" />
 
 </div>
 
