@@ -1,176 +1,102 @@
-# 👩🏻‍💻 Mário Beltrão
+<div align="center">
 
-**`Desenvolvedor FullStack`**
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!--                       MÁRIO BELTRÃO                           -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-Me chamo Mário Beltrão, tenho 20 anos e sou natural da Paraíba. Concluí o ensino médio no Colégio Marista Pio X e, atualmente, curso Ciência da Computação na Universidade Federal da Paraíba (UFPB).
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050A14,50:0B1F33,100:00BFFF&text=Mário%20Beltrão&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Computer%20Science%20•%20Full%20Stack%20•%20AI%20Engineering&descAlignY=60&descSize=18&animation=twinkling"
+  width="100%"
+/>
 
-Sou apaixonado por tecnologia e pela constante evolução da área da computação. Tenho grande interesse em expandir meus conhecimentos, desenvolver novas habilidades e aplicar, na prática, os conceitos aprendidos ao longo da graduação. Busco oportunidades que contribuam para meu crescimento profissional e pessoal, sempre com dedicação, curiosidade e vontade de aprender.
+<br>
 
-Acredito que o aprendizado contínuo, a capacidade de resolver problemas e o trabalho em equipe são fundamentais para a formação de um bom profissional. Por isso, procuro estar sempre aberto a novos desafios e experiências que agreguem valor à minha trajetória na área de tecnologia.
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=750&lines=Computer+Science+Student;Full+Stack+Developer;Python+%7C+Java+%7C+TypeScript;Exploring+AI+Engineering;Learning+by+building+real+projects"
+  alt="Typing Animation"
+/>
 
-<p align="left">
-    <a href="https://www.youtube.com/channel/UC494qMVbj0Rr977CATcp8mA">
-        <img 
-            alt="youtube subscribers" 
-            title="Inscreva-se no meu canal" 
-            src="https://custom-icon-badges.demolab.com/youtube/channel/subscribers/UC494qMVbj0Rr977CATcp8mA?color=%23E05D44&label=Inscreva-se&logo=video&logoColor=white&style=for-the-badge&labelColor=CE4630"
-        />
-    </a>
-    <a href="https://www.youtube.com/@larissakich">
-        <img 
-            alt="youtube views" 
-            title="Vizualizações no YouTube" 
-            src="https://custom-icon-badges.demolab.com/youtube/channel/views/UC494qMVbj0Rr977CATcp8mA?color=%23E1AD0E&logo=eye&logoColor=white&style=for-the-badge&labelColor=C79600"
-        />
-    </a> 
-    <a href="https://github.com/mariobeltrao">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/mariobeltrao?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
-        />
-    </a>
-    <a href="https://github.com/mariobeltrao">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/mariobeltrao?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
-</p>
+<br>
+
+<img
+  src="https://komarev.com/ghpvc/?username=mariobeltrao&label=PROFILE%20VIEWS&color=00bfff&style=flat-square"
+  alt="Profile views"
+/>
+
+</div>
 
 ---
 
-### 🤖 Linguagens e Tecnologias
+<div align="center">
 
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<!-- <img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  -->
+## `> whoami`
 
-<!-- <img 
-    align="left" 
-    alt="TypeScript"
-    title="TypeScript" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"  -->
+</div>
 
-<!-- <img 
-    align="left" 
-    alt="React"
-    title="React" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"  -->
+I'm a **Computer Science student** focused on becoming a stronger software engineer through continuous learning and practical development.
 
-<!-- <img 
-    align="left" 
-    alt="Next.js" 
-    title="Next.js"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" 
-/> -->
-<!-- <img 
-    align="left" 
-    alt="Bootstrap"
-    title="Bootstrap" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Tailwind" 
-    title="Tailwind"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="SASS" 
-    title="SASS"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="PHP" 
-    title="PHP"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Laravel" 
-    title="Laravel"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JQuery" 
-    title="JQuery"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"  -->
+I enjoy understanding how systems work, solving problems and transforming ideas into real applications.
 
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
+My current journey combines **software development, backend engineering, full-stack applications and Artificial Intelligence**, while building projects that allow me to apply concepts beyond the classroom.
 
-<br/>
-<br/>
+Currently focusing on:
 
-## 📊 Estatísticas
+- 🐍 Python development and problem solving
+- ☕ Java and Object-Oriented Programming
+- ⚛️ Full Stack applications
+- 🗄️ Databases and backend architecture
+- 🤖 AI Engineering and LLM-based systems
+- 🐳 Docker, deployment and production environments
+- 🌱 Git, GitHub and software engineering practices
 
-<p align="left">
-  <img
-    height="180"
-    src="https://github-readme-stats-weld-theta-68.vercel.app/api?username=mariobeltrao&show_icons=true&theme=tokyonight&locale=pt-br"
-    alt="Estatísticas do GitHub"
-  />
+---
 
-  <img
-    height="180"
-    src="https://github-readme-stats-weld-theta-68.vercel.app/api/top-langs/?username=mariobeltrao&layout=compact&theme=tokyonight&langs_count=9&custom_title=Tecnologias"
-    alt="Tecnologias mais utilizadas"
-  />
-</p>
+<div align="center">
+
+## `</> TECHNOLOGIES`
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css&theme=dark" />
+
+<br><br>
+
+### Backend & Frontend
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,fastapi&theme=dark" />
+
+<br><br>
+
+### Databases & Infrastructure
+
+<img src="https://skillicons.dev/icons?i=postgres,sqlite,docker&theme=dark" />
+
+<br><br>
+
+### Development Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea&theme=dark" />
+
+</div>
+
+---
+
+<div align="center">
+
+## `⚡ CURRENT FOCUS`
+
+</div>
+
+<table align="center">
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 💻 Software Engineering
+
+```text
+Python            ████████████████░░░░
+Java              ███████████████░░░░░
+Full Stack        ███████████████░░░░░
+Git / GitHub      ███████████████░░░░░
