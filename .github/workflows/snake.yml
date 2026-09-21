@@ -1,4 +1,4 @@
-name: Gerar animação da snake
+name: Gerar estatísticas e snake
 
 on:
   schedule:
@@ -16,6 +16,29 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Gerar cards de estatísticas
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          AUTO_PUSH: false
+          THEME: github_dark
+          ANIMATION: load
+          DURATION: 3
+
+      - name: Preparar cards para publicação
+        shell: bash
+        run: |
+          mkdir -p dist
+          cp profile-summary-card-output/github_dark/3-stats.svg dist/github-stats.svg
+          cp profile-summary-card-output/github_dark/1-repos-per-language.svg dist/top-languages.svg
+          cp profile-summary-card-output/github_dark/0-profile-details.svg dist/profile-details.svg
+
       - name: Gerar SVGs da snake em verde-musgo
         uses: Platane/snk/svg-only@v3
         with:
