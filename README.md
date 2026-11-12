@@ -4,11 +4,11 @@
 <!--                         MÁRIO BELTRÃO                         -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:11170D,50:2F3E24,100:6B8E23&text=M%C3%A1rio%20Beltr%C3%A3o&fontColor=F4F7F0&fontSize=48&fontAlignY=38&desc=Python%20Developer%20%E2%80%A2%20Java%20%E2%80%A2%20Web%20%E2%80%A2%20Aprendizado%20Cont%C3%ADnuo&descAlignY=60&descSize=18&animation=twinkling" width="100%" alt="Banner de Mário Beltrão" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:11170D,50:2F3E24,100:6B8E23&text=M%C3%A1rio%20Beltr%C3%A3o&fontColor=F4F7F0&fontSize=48&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web&descAlignY=60&descSize=18&animation=twinkling" width="100%" alt="Banner de Mário Beltrão" />
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=500&size=22&duration=3200&pause=900&color=8FBC8F&center=true&vCenter=true&width=700&lines=Desenvolvedor+Python+em+forma%C3%A7%C3%A3o;Construindo+projetos+e+evoluindo+todos+os+dias;Python+%7C+Java+%7C+React+%7C+TypeScript;Transformando+ideias+em+solu%C3%A7%C3%B5es" alt="Apresentação animada" />
+<img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=500&size=22&duration=3200&pause=900&color=8FBC8F&center=true&vCenter=true&width=700&lines=Desenvolvedor+Python+em+forma%C3%A7%C3%A3o;Construindo+projetos+e+evoluindo+todos+os+dias;Engenharia+de+IA+%7C+Python+%7C+Web;Transformando+ideias+em+solu%C3%A7%C3%B5es" alt="Apresentação animada" />
 
 <br>
 
@@ -26,18 +26,22 @@
 
 </div>
 
-<img align="right" width="270" src="https://capsule-render.vercel.app/api?type=rounded&height=180&color=11170D&text=%3C%2F%3E&fontColor=8FBC8F&fontSize=80&fontAlignY=55&stroke=6B8E23&strokeWidth=1" alt="Ilustração de código" />
+<img align="right" width="300" src="assets/codigo-ia.svg" alt="Terminal com código Python sobre engenharia de IA" />
 
 Olá! Sou **Mário Beltrão**, de **João Pessoa, Paraíba**.
 
-Sou desenvolvedor em formação, com foco em **Python**. Aprendo programação criando projetos práticos, explorando novas tecnologias e aprimorando minhas habilidades todos os dias.
+Sou desenvolvedor em formação, com foco em **engenharia de IA** e desenvolvimento em **Python**. Aprendo programação criando projetos práticos, explorando novas tecnologias e aprimorando minhas habilidades todos os dias.
 
 Atualmente, concentro meus estudos em:
 
+* 🤖 **Engenharia de IA**
+  * Fundamentos de machine learning, estatística e álgebra linear
+  * Redes neurais e deep learning
+  * LLMs, engenharia de prompt e APIs de modelos
+  * RAG, embeddings e bancos de dados vetoriais
+  * Agentes de IA e uso de ferramentas
+  * Avaliação, deploy e MLOps
 * 🐍 Desenvolvimento de aplicações com **Python**
-* ☕ Programação orientada a objetos com **Java**
-* 🌐 Desenvolvimento web com **React e TypeScript**
-* 🎨 Interfaces responsivas com **HTML, CSS e Tailwind CSS**
 * 🧠 Lógica de programação e resolução de problemas
 * 🛠️ Versionamento e colaboração com **Git e GitHub**
 
@@ -79,26 +83,30 @@ Cada projeto aqui representa uma etapa da minha evolução como desenvolvedor.
 
 ```text
 Python        ████████████████████  foco principal
-Java          ███████████████░░░░░  em evolução
-JavaScript    ██████████████░░░░░░  projetos web
-TypeScript    █████████████░░░░░░░  projetos web
+IA / ML       ████████░░░░░░░░░░░░  em andamento
+Web           ██████████████░░░░░░  projetos web
+Git/GitHub    ███████████████░░░░░  uso frequente
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### 🫒 Fundamentos
+### 🤖 Trilha de IA
 
 ```text
-Lógica        ████████████████████  prática contínua
-POO           ████████████████░░░░  em evolução
-Git/GitHub    ███████████████░░░░░  uso frequente
-UI responsiva ██████████████░░░░░░  projetos web
+Fundamentos   ████████░░░░░░░░░░░░  estudando
+Deep learning ████░░░░░░░░░░░░░░░░  a seguir
+LLMs e RAG    ██████░░░░░░░░░░░░░░  estudando
+Agentes de IA ████░░░░░░░░░░░░░░░░  a seguir
 ```
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+<sub>Trilha de engenharia de IA em andamento, com previsão de conclusão em 2027.</sub>
+</div>
 
 ---
 
@@ -107,12 +115,10 @@ UI responsiva ██████████████░░░░░░  proj
 ## `⚙ ferramentas do meu dia a dia`
 
 <img src="https://img.shields.io/badge/Python-11170D?style=for-the-badge&logo=python&logoColor=8FBC8F" alt="Python" />
-<img src="https://img.shields.io/badge/Java-11170D?style=for-the-badge&logo=openjdk&logoColor=8FBC8F" alt="Java" />
-<img src="https://img.shields.io/badge/React-11170D?style=for-the-badge&logo=react&logoColor=8FBC8F" alt="React" />
-<img src="https://img.shields.io/badge/TypeScript-11170D?style=for-the-badge&logo=typescript&logoColor=8FBC8F" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Git-11170D?style=for-the-badge&logo=git&logoColor=8FBC8F" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub-11170D?style=for-the-badge&logo=github&logoColor=8FBC8F" alt="GitHub" />
 <img src="https://img.shields.io/badge/VS%20Code-11170D?style=for-the-badge&logo=visualstudiocode&logoColor=8FBC8F" alt="VS Code" />
+<img src="https://img.shields.io/badge/Claude-11170D?style=for-the-badge&logo=claude&logoColor=8FBC8F" alt="Claude" />
+<img src="https://img.shields.io/badge/Codex-11170D?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOEZCQzhGIiBzdHJva2Utd2lkdGg9IjIuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNNCA2bDYgNi02IDZNMTIgMThoOCIvPjwvc3ZnPg==" alt="Codex" />
 
 </div>
 
@@ -132,21 +138,65 @@ UI responsiva ██████████████░░░░░░  proj
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">⚡ NowOrNever</h3>
+<h3 align="center">🐍 PyCore</h3>
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/Python-6B8E23?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Leilões-2F3E24?style=flat-square&logoColor=8FBC8F" alt="Leilões em tempo real" />
+<img src="https://img.shields.io/badge/Aprendizado-2F3E24?style=flat-square&logoColor=8FBC8F" alt="Aprendizado" />
 
 <br><br>
 
-Plataforma de leilões em tempo real, com lances, acompanhamento de ofertas, ranking e resultados. O projeto evolui de uma CLI em Python para uma aplicação web completa.
+Jornada estruturada de aprendizado em Python, com entregas diárias e evolução incremental: fundamentos, lógica, manipulação de dados e projetos práticos, tudo versionado e documentado.
 
 <br><br>
 
-<a href="https://github.com/mariobeltrao/NowOrNever">
-  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver NowOrNever" />
+<a href="https://github.com/mariobeltrao/PyCore">
+  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver PyCore" />
+</a>
+
+</div>
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">🏋️ MasterFit</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/React-6B8E23?style=flat-square&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/TypeScript-2F3E24?style=flat-square&logo=typescript&logoColor=8FBC8F" alt="TypeScript" />
+
+<br><br>
+
+Site institucional da rede de academias MasterFit, na Paraíba, com hero interativa, zoom por satélite, timeline, depoimentos, planos por unidade e contato via WhatsApp.
+
+<br><br>
+
+<a href="https://github.com/mariobeltrao/MasterFit">
+  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver MasterFit" />
+</a>
+
+</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">✅ TaskFlow</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-6B8E23?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Produtividade-2F3E24?style=flat-square&logoColor=8FBC8F" alt="Produtividade" />
+
+<br><br>
+
+Sistema acadêmico de gerenciamento de tarefas e prazos desenvolvido em Python para organizar atividades, provas e compromissos.
+
+<br><br>
+
+<a href="https://github.com/mariobeltrao/TaskFlow">
+  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver TaskFlow" />
 </a>
 
 </div>
@@ -168,50 +218,6 @@ Aplicação em Java que simula um sistema inteligente de rodízio veicular, expl
 
 <a href="https://github.com/mariobeltrao/MinhaVez">
   <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver MinhaVez" />
-</a>
-
-</div>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">🎨 Visage</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/React-6B8E23?style=flat-square&logo=react&logoColor=white" alt="React" />
-<img src="https://img.shields.io/badge/TypeScript-2F3E24?style=flat-square&logo=typescript&logoColor=8FBC8F" alt="TypeScript" />
-
-<br><br>
-
-Landing page editorial e responsiva criada com React, TypeScript, Vite e Tailwind CSS, com animações de rolagem e galeria interativa.
-
-<br><br>
-
-<a href="https://github.com/mariobeltrao/Visage">
-  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver Visage" />
-</a>
-
-</div>
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">✅ TaskFlow</h3>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-6B8E23?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Produtividade-2F3E24?style=flat-square&logoColor=8FBC8F" alt="Produtividade" />
-
-<br><br>
-
-Sistema acadêmico de gerenciamento de tarefas e prazos desenvolvido em Python para organizar atividades, provas e compromissos.
-
-<br><br>
-
-<a href="https://github.com/mariobeltrao/TaskFlow">
-  <img src="https://img.shields.io/badge/VER%20PROJETO-6B8E23?style=for-the-badge&logo=github&logoColor=white" alt="Ver TaskFlow" />
 </a>
 
 </div>
@@ -265,7 +271,7 @@ Sistema acadêmico de gerenciamento de tarefas e prazos desenvolvido em Python p
 
 <br><br>
 
-<sub>Python • Java • Desenvolvimento Web • Aprendizado contínuo</sub>
+<sub>Engenharia de IA • Python • Desenvolvimento Web</sub>
 
 </div>
 
@@ -274,7 +280,5 @@ Sistema acadêmico de gerenciamento de tarefas e prazos desenvolvido em Python p
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:6B8E23,50:2F3E24,100:11170D&section=footer" width="100%" alt="Rodapé verde-musgo" />
-
-<sub>Feito com código, curiosidade e um toque de verde-musgo. 🌿</sub>
 
 </div>
