@@ -229,6 +229,83 @@ Aplicação em Java que simula um sistema inteligente de rodízio veicular, expl
 
 <div align="center">
 
+## `🎓 certificações`
+
+<sub>Cursos concluídos na minha trilha de Python e engenharia de IA.</sub>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Certificados-7-6B8E23?style=for-the-badge&labelColor=11170D" alt="7 certificados" />
+<img src="https://img.shields.io/badge/Microsoft-6%20cursos%20de%20Python-6B8E23?style=for-the-badge&labelColor=11170D" alt="Microsoft: 6 cursos de Python" />
+<img src="https://img.shields.io/badge/Samsung%20Ocean-Agentes%20de%20IA-6B8E23?style=for-the-badge&logo=samsung&logoColor=8FBC8F&labelColor=11170D" alt="Samsung Ocean: Agentes de IA" />
+
+<br><br>
+
+<table>
+<tr>
+<th></th>
+<th>Certificado</th>
+<th>Emissor</th>
+<th>Data</th>
+<th></th>
+</tr>
+<tr>
+<td align="center">🤖</td>
+<td><b>Fundamentos de Agentes de IA: Conceitos e Implementações em Python</b></td>
+<td>Samsung Ocean</td>
+<td align="center">13/08/2026</td>
+<td align="center"><a href="certificados/samsung-ocean-fundamentos-agentes-ia.pdf"><img src="https://img.shields.io/badge/VER%20PDF-6B8E23?style=flat-square" alt="Ver certificado em PDF" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Python Programming Fundamentals</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">21/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/SO5I2YWY5F3T"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Python Programming Fundamentals" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Data Analysis and Visualization with Python</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">21/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/06F46MR6VHG6"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Data Analysis and Visualization with Python" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Automation and Scripting with Python</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">22/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/0K4MF6KSR9KJ"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Automation and Scripting with Python" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Advanced Python Development Techniques</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">24/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/KLBWTBWCT8S4"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Advanced Python Development Techniques" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Web Development with Python</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">24/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/IC83356C7ST1"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Web Development with Python" /></a></td>
+</tr>
+<tr>
+<td align="center">🐍</td>
+<td><b>Project Development in Python</b></td>
+<td>Microsoft · Coursera</td>
+<td align="center">24/08/2026</td>
+<td align="center"><a href="https://coursera.org/verify/MG00VK3LWK86"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Project Development in Python" /></a></td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
 ## `📊 estatísticas`
 
 <img height="165" src="https://raw.githubusercontent.com/mariobeltrao/mariobeltrao/output/github-stats.svg" alt="Estatísticas do GitHub" />
