@@ -50,7 +50,7 @@ CHART_FROM = date(2026, 8, 1)
 TILES = [
     # slug, title, subtitle ({repos} is filled from the data), icon
     ("projetos", "Projetos", "{repos} repositórios públicos", "code"),
-    ("certificados", "Certificados", "7 cursos · Microsoft e Samsung", "medal"),
+    ("certificados", "Certificados", "{certs} cursos · IA e Python", "medal"),
     ("contato", "Contato", "vamos conversar por e-mail", "mail"),
 ]
 
@@ -85,6 +85,27 @@ FEATURED = [
 # Each project card: its step on the green ladder and its illustration.
 REPO_LOOK = {"PyCore": (5, "editor"), "MasterFit": (1, "pulse"), "TaskFlow": (2, "checklist"),
              "MinhaVez": (4, "road")}
+
+# Certificates, oldest first: each gets a small linked badge, darker as the path goes on.
+# slug, title (short), issuer, date, link
+CERTS = [
+    ("samsung-agentes-ia", "Fundamentos de Agentes de IA em Python", "Samsung Ocean", date(2026, 8, 13),
+     "certificados/samsung-ocean-fundamentos-agentes-ia.pdf"),
+    ("python-fundamentals", "Python Programming Fundamentals", "Microsoft · Coursera", date(2026, 8, 21),
+     "https://coursera.org/verify/SO5I2YWY5F3T"),
+    ("data-analysis", "Data Analysis and Visualization with Python", "Microsoft · Coursera", date(2026, 8, 21),
+     "https://coursera.org/verify/06F46MR6VHG6"),
+    ("automation", "Automation and Scripting with Python", "Microsoft · Coursera", date(2026, 8, 22),
+     "https://coursera.org/verify/0K4MF6KSR9KJ"),
+    ("advanced-python", "Advanced Python Development Techniques", "Microsoft · Coursera", date(2026, 8, 24),
+     "https://coursera.org/verify/KLBWTBWCT8S4"),
+    ("web-development", "Web Development with Python", "Microsoft · Coursera", date(2026, 8, 24),
+     "https://coursera.org/verify/IC83356C7ST1"),
+    ("project-development", "Project Development in Python", "Microsoft · Coursera", date(2026, 8, 24),
+     "https://coursera.org/verify/MG00VK3LWK86"),
+    ("dascia-fundamentos-ia", "Fundamentos da IA", "DascIA Academy", date(2026, 11, 11),
+     "certificados/dascia-fundamentos-ia.png"),
+]
 
 # ── brand: light green (Quicksand + JetBrains Mono) ─────────────────────────
 BG = "#D5E8BF"      # card background: light green
@@ -256,6 +277,7 @@ CSS_MOTION = """
 .grow{animation-name:grow;transform-box:fill-box;transform-origin:50% 100%}@keyframes grow{from{transform:scaleY(0)}}
 .sweep{animation-name:sweep;transform-box:fill-box;transform-origin:0 50%}@keyframes sweep{from{transform:scaleX(0)}}
 .pop{animation-name:pop;animation-duration:.5s;transform-box:fill-box;transform-origin:50% 50%}@keyframes pop{from{opacity:0;transform:scale(.3)}}
+.shine{animation-name:shine;animation-duration:1.5s;animation-timing-function:ease-in-out}@keyframes shine{from{transform:translateX(0)}to{transform:translateX(520px)}}
 .draw{stroke-dasharray:1;animation-name:draw;animation-duration:1.4s}@keyframes draw{from{stroke-dashoffset:1}}
 .still{display:none}
 @media (prefers-reduced-motion:reduce){.a{animation:none!important}.motion{display:none}.still{display:inline}/*reduced*/}
@@ -847,12 +869,72 @@ def graph(fonts: Fonts, days: list[tuple[date, int]], s: dict, start: float) -> 
     c.save()
 
 
+def shade(t: float) -> str:
+    """A colour t (0..1) of the way along the green ladder."""
+    x = t * (len(LADDER) - 1)
+    i = min(int(x), len(LADDER) - 2)
+    a, b = LADDER[i], LADDER[i + 1]
+    mix = [round(int(a[k:k + 2], 16) * (1 - (x - i)) + int(b[k:k + 2], 16) * (x - i)) for k in (1, 3, 5)]
+    return "#" + "".join(f"{v:02X}" for v in mix)
+
+
+def cert(fonts: Fonts, idx: int, title: str, issuer: str, when: date, slug: str, start: float) -> None:
+    """A compact certificate badge: rosette seal, issuer, title and date."""
+    bg = shade(idx / max(len(CERTS) - 1, 1))
+    dark = sum(int(bg[k:k + 2], 16) for k in (1, 3, 5)) / 3 < 110
+    fg, fg2 = (ON_DARK, ON_DARK_DIM) if dark else (TEXT, LEAF)
+    Wc, Hc = 300, 184
+    day = f"{when.day:02d} {MONTHS[when.month - 1]} {when.year}"
+    c = Card(fonts, f"cert-{slug}", Wc, Hc, start, f"Certificado: {title}, {issuer}, {day}")
+    c.defs.append(f'<clipPath id="clip"><rect width="{Wc}" height="{Hc}" rx="16"/></clipPath>'
+                  '<linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
+                  '<stop offset=".5" stop-color="#fff" stop-opacity=".35"/>'
+                  '<stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>')
+    c.add(f'<rect x=".75" y=".75" width="{Wc - 1.5}" height="{Hc - 1.5}" rx="16" fill="{bg}" stroke="{fg}" '
+          f'stroke-opacity=".12"/>')
+    c.add(f'<g clip-path="url(#clip)"><circle cx="{Wc - 30}" cy="{Hc + 10}" r="96" fill="{fg}" '
+          f'fill-opacity=".06"{c.anim("pop", .15)}/></g>')
+
+    # rosette seal with the step number
+    cx, cy = 48, 48
+    pts = []
+    for k in range(32):
+        r = 23 if k % 2 == 0 else 20.5
+        a = math.pi * k / 16
+        pts.append(f"{cx + r * math.cos(a):.1f},{cy + r * math.sin(a):.1f}")
+    c.add(f'<g{c.anim("pop", .1)}><polygon points="{" ".join(pts)}" fill="{fg}" stroke="{fg}" '
+          f'stroke-width="1.5" stroke-linejoin="round"/>'
+          f'<circle cx="{cx}" cy="{cy}" r="15" fill="none" stroke="{bg}" stroke-width="1.4" stroke-opacity=".6"/>'
+          + c.text(cx, cy + 5, f"{idx + 1:02d}", "m6", 13, bg, "middle") + "</g>")
+    c.motion(f'<circle cx="{cx}" cy="{cy}" r="30" fill="none" stroke="{fg}" stroke-opacity=".35" '
+             f'stroke-width="1.2" stroke-dasharray="2 5"><animateTransform attributeName="transform" '
+             f'type="rotate" from="0 {cx} {cy}" to="360 {cx} {cy}" dur="24s" repeatCount="indefinite"/></circle>')
+
+    # date pill and arrow, top right
+    dw = c.width("m6", day, 11) + 20
+    c.add(f'<g{c.anim("slide", .3)}><rect x="{Wc - 22 - dw:.1f}" y="24" width="{dw:.1f}" height="24" rx="12" '
+          f'fill="{fg}" fill-opacity=".1"/>' + c.text(Wc - 22 - dw / 2, 40, day, "m6", 11, fg, "middle") + "</g>")
+
+    c.add(f'<g{c.anim("rise", .2)}>' + c.text(24, 104, issuer.upper(), "m6", 11.5, fg2, ls=1) + "</g>")
+    lines = wrap(c, title, "q7", 19, Wc - 48, 2)
+    c.add(f'<g{c.anim("rise", .28)}>' + "".join(
+        c.text(24, 132 + 24 * j, ln, "q7", 19, fg) for j, ln in enumerate(lines)) + "</g>")
+
+    # one light sweep across the badge as it lands
+    if not STATIC:
+        c.add(f'<g clip-path="url(#clip)"><g transform="skewX(-18)"><rect{c.anim("shine", .45)} x="-200" y="-40" '
+              f'width="110" height="{Hc + 80}" fill="url(#gl)"/></g></g>')
+    c.save()
+
+
 def preview() -> None:
     img = lambda n, w: f'<img src="{n}.svg" width="{w}">'
     tiles = "".join(img(f"tile-{t[0]}", "32.5%") for t in TILES)
     repos = "".join(img(f"repo-{n.lower()}", "49.3%") for n, _ in FEATURED)
+    certs = "".join(img(f"cert-{x[0]}", "24.5%") for x in CERTS)
     rows = [img("hero", "100%"), f'<div class="row">{tiles}</div>', img("studies", "100%"),
-            img("contributions-monthly", "100%"), f'<div class="row wrap">{repos}</div>', img("contribution-graph", "100%")]
+            img("contributions-monthly", "100%"), f'<div class="row wrap">{repos}</div>', img("contribution-graph", "100%"),
+            f'<div class="row wrap">{certs}</div>']
     (OUT / "index.html").write_text(
         "<!doctype html><meta charset=utf-8><title>cards preview</title><style>body{background:#0d1117;"
         "margin:0;padding:32px}main{max-width:830px;margin:auto;display:grid;gap:8px}"
@@ -875,7 +957,7 @@ def render() -> None:
         hero(fonts, t)
         t += .7
         for i, (slug, title, sub, ico) in enumerate(TILES):
-            tile(fonts, i, slug, title, sub.format(repos=data["user"]["public_repos"]), ico, t + i * .15)
+            tile(fonts, i, slug, title, sub.format(repos=data["user"]["public_repos"], certs=len(CERTS)), ico, t + i * .15)
         t += .8
         studies(fonts, t)
         t += 1
@@ -886,6 +968,9 @@ def render() -> None:
             if i % 2 == 0:
                 t += .35
         graph(fonts, days, s, t)
+        t += 2.2
+        for i, (slug, title, issuer, when, _) in enumerate(CERTS):
+            cert(fonts, i, title, issuer, when, slug, t + i % 4 * .12 + i // 4 * .3)
     finally:
         fonts.close()
     if STATIC:

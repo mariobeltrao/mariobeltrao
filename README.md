@@ -33,70 +33,11 @@ Sou desenvolvedor em formação, com foco em **engenharia de IA** e desenvolvime
 
 ### Certificações
 
-<details>
-<summary>7 cursos concluídos na trilha de Python e engenharia de IA</summary>
+<div align="center">
 
-<br>
+<a href="certificados/samsung-ocean-fundamentos-agentes-ia.pdf"><img src="cards/cert-samsung-agentes-ia.svg" width="24%" alt="Fundamentos de Agentes de IA em Python — Samsung Ocean" /></a> <a href="https://coursera.org/verify/SO5I2YWY5F3T"><img src="cards/cert-python-fundamentals.svg" width="24%" alt="Python Programming Fundamentals — Microsoft · Coursera" /></a> <a href="https://coursera.org/verify/06F46MR6VHG6"><img src="cards/cert-data-analysis.svg" width="24%" alt="Data Analysis and Visualization with Python — Microsoft · Coursera" /></a> <a href="https://coursera.org/verify/0K4MF6KSR9KJ"><img src="cards/cert-automation.svg" width="24%" alt="Automation and Scripting with Python — Microsoft · Coursera" /></a>
+<a href="https://coursera.org/verify/KLBWTBWCT8S4"><img src="cards/cert-advanced-python.svg" width="24%" alt="Advanced Python Development Techniques — Microsoft · Coursera" /></a> <a href="https://coursera.org/verify/IC83356C7ST1"><img src="cards/cert-web-development.svg" width="24%" alt="Web Development with Python — Microsoft · Coursera" /></a> <a href="https://coursera.org/verify/MG00VK3LWK86"><img src="cards/cert-project-development.svg" width="24%" alt="Project Development in Python — Microsoft · Coursera" /></a> <a href="certificados/dascia-fundamentos-ia.png"><img src="cards/cert-dascia-fundamentos-ia.svg" width="24%" alt="Fundamentos da IA — DascIA Academy" /></a>
 
-<table>
-<tr>
-<th></th>
-<th>Certificado</th>
-<th>Emissor</th>
-<th>Data</th>
-<th></th>
-</tr>
-<tr>
-<td align="center">🤖</td>
-<td><b>Fundamentos de Agentes de IA: Conceitos e Implementações em Python</b></td>
-<td>Samsung Ocean</td>
-<td align="center">13/08/2026</td>
-<td align="center"><a href="certificados/samsung-ocean-fundamentos-agentes-ia.pdf"><img src="https://img.shields.io/badge/VER%20PDF-6B8E23?style=flat-square" alt="Ver certificado em PDF" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Python Programming Fundamentals</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">21/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/SO5I2YWY5F3T"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Python Programming Fundamentals" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Data Analysis and Visualization with Python</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">21/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/06F46MR6VHG6"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Data Analysis and Visualization with Python" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Automation and Scripting with Python</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">22/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/0K4MF6KSR9KJ"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Automation and Scripting with Python" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Advanced Python Development Techniques</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">24/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/KLBWTBWCT8S4"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Advanced Python Development Techniques" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Web Development with Python</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">24/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/IC83356C7ST1"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Web Development with Python" /></a></td>
-</tr>
-<tr>
-<td align="center">🐍</td>
-<td><b>Project Development in Python</b></td>
-<td>Microsoft · Coursera</td>
-<td align="center">24/08/2026</td>
-<td align="center"><a href="https://coursera.org/verify/MG00VK3LWK86"><img src="https://img.shields.io/badge/VERIFICAR-6B8E23?style=flat-square&logo=coursera&logoColor=white" alt="Verificar Project Development in Python" /></a></td>
-</tr>
-</table>
-
-</details>
+</div>
 
 <sub>Cards gerados por <a href="scripts/cards.py"><code>scripts/cards.py</code></a> e atualizados diariamente por uma GitHub Action.</sub>
